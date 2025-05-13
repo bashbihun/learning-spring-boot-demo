@@ -1,0 +1,23 @@
+###cobalah
+POST http://localhost:8080/greet
+content-type: application/json
+
+{
+    "name": "prabowo"
+}
+
+###
+GET http://localhost:8080/hello
+
+###
+GET http://localhost:8080/user/10
+
+###
+GET http://localhost:8080/welcome
+###
+POST http://localhost:8080/register
+content-type: application/json
+
+{
+    "username": "jokowi"
+}
