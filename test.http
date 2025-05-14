@@ -27,3 +27,24 @@ GET http://localhost:8081/welcome
 
 ###
 GET http://localhost:8081/version
+
+###
+POST http://localhost:8081/users/register
+Content-Type: application/json
+
+{
+    "username": "budi",
+    "email": "budi@gmail.com"
+}
+
+###
+GET http://localhost:8081/users/1
+
+###
+POST http://localhost:8081/users/register2
+Content-Type: application/json
+
+{
+    "username": "budi",
+    "email": "budi@gmail.com"
+}
