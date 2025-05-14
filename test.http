@@ -1,5 +1,5 @@
 ###cobalah
-POST http://localhost:8080/greet
+POST http://localhost:8081/greet
 content-type: application/json
 
 {
@@ -7,17 +7,23 @@ content-type: application/json
 }
 
 ###
-GET http://localhost:8080/hello
+GET http://localhost:8081/hello
 
 ###
-GET http://localhost:8080/user/10
+GET http://localhost:8081/user/10
 
 ###
-GET http://localhost:8080/welcome
+GET http://localhost:8081/welcome
 ###
-POST http://localhost:8080/register
+POST http://localhost:8081/register
 content-type: application/json
 
 {
     "username": "jokowi"
 }
+
+###
+GET http://localhost:8081/welcome
+
+###
+GET http://localhost:8081/version

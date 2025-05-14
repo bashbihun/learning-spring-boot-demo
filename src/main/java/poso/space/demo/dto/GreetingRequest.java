@@ -1,4 +1,4 @@
-package poso.space.demo;
+package poso.space.demo.dto;
 
 public class GreetingRequest {
 
